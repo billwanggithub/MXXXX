@@ -1,37 +1,52 @@
-# MXXXX
+# GmtTestTool
 
-#### 介绍
-MXXXX Test Tool
+## APP 更新下载
 
-#### 软件架构
-软件架构说明
+### 下载
 
+**點擊[Gitee](https://gitee.com/billwang168/gmt-test-tool)頁面右側[發行版](https://gitee.com/billwang168/gmt-test-tool/releases)下載更新**
 
-#### 安装教程
+![APP_DOWNLOAD](assets/APP_DOWNLOAD.png)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 检查/下載更新
 
-#### 使用说明
+![Check_App_Update](assets/Check_App_Update.png)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## APP功能描述
 
-#### 参与贡献
+### 第一次启动程序会要求选择芯片
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![Select_Chip](assets/SelectChip.png)
 
+### Pragramming Mode(PGM)
 
-#### 特技
+![Enter PGM Mode](assets/Enter_PGM.png)
+ >Note: 若Load File時改變了TX/RX反相相關設定時會離開PGM Mode
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 進入PGM後會問你要不要做eFuse燒錄與否的檢測?
+  `Yes` => 下載eFuse到register
+  
+![Confirm_CheckeFuse](assets/Confirm_CheckeFuse.png)
+
+- 若檢測到eFuse未燒錄過會問你是否要寫入Default值
+ `YES` => 寫入Default值到Register
+
+![Confirm_SetDefaultValues](assets/Confirm_SetDefaultValues.png)
+
+### 缓存器填入default值
+
+![Set Default](assets/Reg_Set_Default.png)
+
+### 一键刻录
+
+- **CMD/SO反相**
+
+![UART INV](assets/UART_INV.png)
+
+- **CMD/SO无反相**
+
+![UART NORMAL](assets/UART_NORMAL.png)
+
+## 韧体手动更新
+
+![Firmware_Update](assets/Firmware_Update.png)
