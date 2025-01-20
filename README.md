@@ -21,6 +21,7 @@
 ### Pragramming Mode(PGM)
 
 ![Enter PGM Mode](assets/Enter_PGM.png)
+
  >Note: 若Load File時改變了TX/RX反相相關設定時會離開PGM Mode
 
 - 進入PGM後會問你要不要做eFuse燒錄與否的檢測?
@@ -33,9 +34,9 @@
 
 ![Confirm_SetDefaultValues](assets/Confirm_SetDefaultValues.png)
 
-### 缓存器填入default值
+### 燒錄功能
 
-![Set Default](assets/Reg_Set_Default.png)
+![Burn_Pag](assets/Burn_Page.png)
 
 ### 一键刻录
 
