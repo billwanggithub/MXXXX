@@ -1,10 +1,13 @@
 # Histroy
 
-- V`250110`
+- V`250121`
 `FW:24121900`
-  - TODO: check auto Burn
-  - TODO: if alreday on PGM Mode when goto Online test, don't enter ggm mode again
-  - Optimize USB Read/Write
+  - 優化Registes操作
+  - 優化APP更新機制
+  - 優化USB R/W Handling
+  - 加入CRC-16檢查
+  - 優化一鍵燒錄
+  - clamp start/stop/Close2Open/Open2Closep Points to 100%
 
 - V1.0.9138.12570 `250107`
 `FW:24121900`
