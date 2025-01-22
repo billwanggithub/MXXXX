@@ -31,16 +31,27 @@
 ![Burn_Pag](assets/Burn_Page.png)
 
 - `One`
+
   烧录一个Byte : 刻录指定的Register.
+
 - `All`
+
   烧录全部16个Register.
+
 - `验证`
+
   验证刻录的值是否符合GUI值.
+
 - `Set Zero`
+
   将全部缓存器设为0.
+
 - `Set Default`
+
   将全部缓存器设为默认值.
+
 - `Reload`
+
   载入eFuse值到Register.不会自动读出Register到GUI.
 
 #### 一键刻录
