@@ -26,7 +26,9 @@
 
 ![Confirm_ReadReloadRegister](assets/Confirm_ReadReloadRegister.png)
 
-### 刻录功能
+### 刻录
+
+#### 一般功能
 
 ![Burn_Pag](assets/Burn_Page.png)
 
