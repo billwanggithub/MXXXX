@@ -28,7 +28,7 @@ flowchart LR
   B --NO--> C
   D --YES--> E
   D --NO --> F
-  E -->H-->C
+  E --YES-->H-->C
   E --NO--> C
   F --YES--> G -->C
   F --NO--> C
