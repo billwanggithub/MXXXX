@@ -54,18 +54,24 @@
 
   载入eFuse值到Register.不会自动读出Register到GUI.
 
-#### 一键刻录
+#### 一键刻录流程
 
 <mark>需先设定RXTX极姓</mark>
 
-```mermaid
-graph LR
-    A[进入PGM] --> B["设定GUI的TX(PWM)/RX(SO)极性,如下图设定"]
-    B --> C["按下Burn"]
-    C --> D["手动改变刻录板的TX(PWM)/RX(SO)极性"]
-    D --> E[执行刻录]
-    E --> F[验证刻录是否成功]
-    F --> G[离开离开PGM]
+```
+進入PGM
+  ↓
+设定GUI的TX(PWM)/RX(SO)极性,如下图设定
+  ↓
+按下Burn  
+  ↓
+手动改变刻录板的TX(PWM)/RX(SO)极性
+  ↓
+执行刻录
+  ↓
+验证刻录是否成功
+  ↓
+离开PGM
 ```
 
 - **CMD/SO反相**

@@ -2,6 +2,10 @@
 
 - V1.0.9152.13527`250121`
 `FW:24121900`
+  - Add Default/Zero to Register Page
+
+- V1.0.9152.13527`250121`
+`FW:24121900`
   - 優化Registes操作
   - 優化APP更新機制
   - 優化USB R/W Handling
