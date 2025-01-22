@@ -49,10 +49,11 @@
 
 ```mermaid
 graph LR
-    A[进入PGM] --> B["手动改变刻录板的TX(PWM)/RX(SO)极性"]
-    B --> C[执行刻录]
-    C --> D[验证刻录是否成功]
-    D --> E[离开离开PGM]
+    A[进入PGM] --> B["设定GUI的TX(PWM)/RX(SO)极性,如下图设定"]
+    B --> C["手动改变刻录板的TX(PWM)/RX(SO)极性"]
+    C --> D[执行刻录]
+    D --> E[验证刻录是否成功]
+    E --> F[离开离开PGM]
 ```
 
 - **CMD/SO反相**
