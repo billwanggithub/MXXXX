@@ -6,7 +6,7 @@
 
 ![Select_Chip](assets/SelectChip.png)
 
-### Pragramming Mode(PGM)
+### 编程模式(PGM)
 
 ![Enter PGM Mode](assets/Enter_PGM.png)
 
