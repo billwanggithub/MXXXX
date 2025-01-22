@@ -2,13 +2,35 @@
 
 ## APP功能描述
 
-### 第一次启动程序会要求选择芯片
+### 第一次启动
 
+<mark>第一次启动程序会要求选择芯片</mark>
 ![Select_Chip](assets/SelectChip.png)
 
 ### 编程模式(PGM)
 
 ![Enter PGM Mode](assets/Enter_PGM.png)
+
+```mermaid
+flowchart TB
+  A["進入PGM"]
+  B{"檢查eFuse是否刻录"}
+  C[離開]
+  D{"刻录過"}
+  E{"是否要讀取Register值"}
+  F{"是否要寫入預設值(Default)"}
+  G["寫入Default值"]
+  H["讀取Register值"]
+  A --> B
+  B --YES--> D
+  B --NO--> C
+  D --YES--> E
+  D --NO --> F
+  E --YES-->H-->C
+  E --NO--> C
+  F --YES--> G -->C
+  F --NO--> C
+```
 
 <mark>PGM Mode下,若Load File时改变了TX/RX反相相关设定时会离开PGM Mode</mark>
 
