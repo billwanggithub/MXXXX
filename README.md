@@ -22,8 +22,9 @@ flowchart TB
   F{"是否要寫入預設值(Default)"}
   G["寫入Default值"]
   H["讀取Register值"]
+  I["下载eFuse到register"]
   A --> B
-  B --YES--> D
+  B --> I --YES--> D
   B --NO--> C
   D --YES--> E
   D --NO --> F
