@@ -10,43 +10,49 @@
 
 ![Enter PGM Mode](assets/Enter_PGM.png)
 
-<mark>PGM Mode下,若Load File時改變了TX/RX反相相關設定時會離開PGM Mode</mark>
+<mark>PGM Mode下,若Load File时改变了TX/RX反相相关设定时会离开PGM Mode</mark>
 
-- 進入PGM後會問你要不要做eFuse燒錄與否的檢測?
-  `Yes` => 下載eFuse到register
+- 进入PGM后会问你要不要做eFuse刻录与否的检测?
+  `Yes` => 下载eFuse到register
 
 ![Confirm_CheckeFuse](assets/Confirm_CheckeFuse.png)
 
-- 若檢測到eFuse未燒錄過會問你是否要寫入Default值
- `YES` => 寫入Default值到Register
+- 若检测到eFuse未刻录过会问你是否要写入Default值
+ `YES` => 写入Default值到Register
 
 ![Confirm_SetDefaultValues](assets/Confirm_SetDefaultValues.png)
 
-- 若測到eFuse燒錄過會問你是否要讀出Register值
+- 若测到eFuse刻录过会问你是否要读出Register值
 
 ![Confirm_ReadReloadRegister](assets/Confirm_ReadReloadRegister.png)
 
-### 燒錄功能
+### 刻录功能
 
 ![Burn_Pag](assets/Burn_Page.png)
 
-- `One`烧录一个Byte : 燒錄指定的Register.
-- `All`烧录全部16個Register.
-- `验证`验证刻录的值是否符合GUI值.
-- `Set Zero`将全部缓存器设为0.
-- `Set Default`将全部缓存器设为默认值.
-- `Reload`載入eFuse值到Register.不會自動讀出Register到GUI.
+- `One`
+  烧录一个Byte : 刻录指定的Register.
+- `All`
+  烧录全部16个Register.
+- `验证`
+  验证刻录的值是否符合GUI值.
+- `Set Zero`
+  将全部缓存器设为0.
+- `Set Default`
+  将全部缓存器设为默认值.
+- `Reload`
+  载入eFuse值到Register.不会自动读出Register到GUI.
 
 #### 一键刻录
 
-<mark>需先設定RXTX極姓</mark>
+<mark>需先设定RXTX极姓</mark>
 
 ```mermaid
 graph LR
-    A[進入PGM] --> B["設定燒錄檔的PWM(TX)/SO(TX)極性"]
-    B --> C["手動改變燒錄板的TX/RX極性"]
-    C --> D[執行燒錄]
-    D --> E{燒錄是否成功}
+    A[进入PGM] --> B["手动改变刻录板的TX(PWM)/RX(SO)极性"]
+    B --> C[执行刻录]
+    C --> D[验证刻录是否成功]
+    D --> E[离开离开PGM]
 ```
 
 - **CMD/SO反相**
@@ -61,11 +67,11 @@ graph LR
 
 ### 下载
 
-**點擊[Gitee](https://gitee.com/billwang168/gmt-test-tool)頁面右側[發行版](https://gitee.com/billwang168/gmt-test-tool/releases)下載更新**
+**点击[Gitee](https://gitee.com/billwang168/gmt-test-tool)页面右侧[发行版](https://gitee.com/billwang168/gmt-test-tool/releases)下载更新**
 
 ![APP_DOWNLOAD](assets/APP_DOWNLOAD.png)
 
-### 检查/下載更新
+### 检查/下载更新
 
 ![Check_App_Update](assets/Check_App_Update.png)
 
