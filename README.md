@@ -5,6 +5,7 @@
 ### 第一次启动
 
 <mark>第一次启动程序会要求选择芯片</mark>
+
 ![Select_Chip](assets/SelectChip.png)
 
 ### 编程模式(PGM)
