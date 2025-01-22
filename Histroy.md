@@ -1,5 +1,11 @@
 # Histroy
 
+- V1.0.9153.13635`250122`
+`FW:24121900`
+  - Fix無AutoWrite時，Reg改變, field值沒有變化
+  - Fix 改變值時,重複寫Register
+  - autosave i2c/uart setting @ applicationsetting.ini
+
 - V1.0.9153.13587`250122`
 `FW:24121900`
   - Add Default/Zero to Register Page
