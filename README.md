@@ -24,11 +24,11 @@ flowchart LR
   H["讀取Register值"]
   I["下载eFuse到register"]
   A --> B
-  B --> I --YES--> D
+  B --YES--> I --> D
   B --NO--> C
   D --YES--> E
   D --NO --> F
-  E --YES-->H-->C
+  E -->H-->C
   E --NO--> C
   F --YES--> G -->C
   F --NO--> C
