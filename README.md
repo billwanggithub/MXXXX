@@ -58,20 +58,20 @@
 
 <mark>需先设定RXTX极姓</mark>
 
-```
-進入PGM
+```text
+[GUI]進入PGM
   ↓
-设定GUI的TX(PWM)/RX(SO)极性,如下图设定
+[GUI]设定GUI的TX(PWM)/RX(SO)极性,如下图设定
   ↓
-按下Burn  
+[GUI]按下Burn  
   ↓
-手动改变刻录板的TX(PWM)/RX(SO)极性
+[USER]手动改变刻录板的TX(PWM)/RX(SO)极性
   ↓
-执行刻录
+[程式]执行刻录
   ↓
-验证刻录是否成功
+[程式]验证刻录是否成功
   ↓
-离开PGM
+[程式]离开PGM
 ```
 
 - **CMD/SO反相**
