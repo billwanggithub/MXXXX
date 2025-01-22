@@ -13,7 +13,7 @@
 ![Enter PGM Mode](assets/Enter_PGM.png)
 
 ```mermaid
-flowchart TB
+flowchart LR
   A["進入PGM"]
   B{"檢查eFuse是否刻录"}
   C[離開]
