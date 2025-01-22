@@ -1,6 +1,6 @@
 # Histroy
 
-- 1.0.9153.13587`250122`
+- V1.0.9153.13587`250122`
 `FW:24121900`
   - Add Default/Zero to Register Page
   - Speed Curve增加AutoScale按鍵
