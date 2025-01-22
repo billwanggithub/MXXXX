@@ -82,16 +82,16 @@ flowchart LR
 
 #### 一键刻录流程
 
-<mark>需先设定RXTX极姓</mark>
+<mark>需先设定TX(CMD)/RX(SO)极姓</mark>
 
 ```text
 [GUI]進入PGM
   ↓
-[GUI]设定GUI的TX(PWM)/RX(SO)极性,如下图设定
+[GUI]设定GUI的TX(CMD)/RX(SO)极性,如下图设定
   ↓
 [GUI]按下Burn  
   ↓
-[USER]手动改变刻录板的TX(PWM)/RX(SO)极性
+[USER]手动改变刻录板的TX(CMD)/RX(SO)极性
   ↓
 [程式]执行刻录
   ↓
