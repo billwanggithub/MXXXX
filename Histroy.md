@@ -1,7 +1,8 @@
 # Histroy
 
-- V1.0.9153.13635`250122`
+- V1.0.9154.13647`250123`
 `FW:24121900`
+  - Fix GUI CRC Update error
   - Fix無AutoWrite時，Reg改變, field值沒有變化
   - Fix 改變值時,重複寫Register
   - autosave i2c/uart setting @ applicationsetting.ini
