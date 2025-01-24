@@ -123,3 +123,6 @@ flowchart LR
 ## 韧体手动更新
 
 ![Firmware_Update](assets/Firmware_Update.png)
+
+Feel free to ping us for questions:
+ [bill.wang@gmt.com.tw](mailto:bill.wang@gmt.com.tw)
