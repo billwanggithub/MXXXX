@@ -1,5 +1,19 @@
 # Histroy
 
+- V1.0.9175.14227`250213`
+`FW:24121900`
+  - 自動切換TX/RX極性
+  - TX/RX polarity auto switching when CMD/SO register changing
+  - Add Read Protection
+  - Fix check PGM data pattern
+  - Add burned chip Read Protection 
+  - Fix Rolling Test Window
+  - Fix online test bit only set @first run
+  - Fix WDT/Read RPM timing async to eliminate RPM glitch
+  - Save Language Setting
+  - Optimize Update Firmware GUI
+  - Optimize the downlaod file
+
 - V1.0.9154.13653`250123`
 `FW:24121900`
   - Fix IsAutoWrite = false, Field not Updated

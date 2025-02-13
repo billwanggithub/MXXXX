@@ -4,53 +4,51 @@
 
 ### 第一次启动
 
+---
 <mark>第一次启动程序会要求选择芯片</mark>
 
 ![Select_Chip](assets/SelectChip.png)
 
 ### 编程模式(PGM)
 
+---
 ![Enter PGM Mode](assets/Enter_PGM.png)
 
 ```mermaid
 flowchart LR
   A["進入PGM"]
-  B{"檢查eFuse是否刻录"}
+  B["檢查eFuse是否刻录"]
   C[離開]
   D{"刻录過"}
-  E{"是否要讀取Register值"}
   F{"是否要寫入預設值(Default)"}
   G["寫入Default值"]
-  H["讀取Register值"]
-  I["下载eFuse到register"]
   A --> B
-  B --YES--> I --> D
-  B --NO--> C
-  D --YES--> E
+  B --> D
+  D --YES--> C
   D --NO --> F
-  E --YES-->H-->C
-  E --NO--> C
   F --YES--> G -->C
   F --NO--> C
 ```
-
-<mark>PGM Mode下,若Load File时改变了TX/RX反相相关设定时会离开PGM Mode</mark>
-
-- 进入PGM后会问你要不要做eFuse刻录与否的检测?
-  `Yes` => 下载eFuse到register
-
-![Confirm_CheckeFuse](assets/Confirm_CheckeFuse.png)
 
 - 若检测到eFuse未刻录过会问你是否要写入Default值
  `YES` => 写入Default值到Register
 
 ![Confirm_SetDefaultValues](assets/Confirm_SetDefaultValues.png)
 
-- 若测到eFuse刻录过会问你是否要读出Register值
+- 若测到eFuse刻录过,需要密碼才能讀取芯片
 
-![Confirm_ReadReloadRegister](assets/Confirm_ReadReloadRegister.png)
+### 芯片讀取保護
+
+---
+
+![read_pprotection](assets/read_pprotection.png)
+
+- 密碼 + 暫存器CRC會組成金鑰
+- 芯片燒錄完, 需要此密碼 + 金鑰正確才能讀取暫存器
 
 ### 刻录
+
+---
 
 #### 一般功能
 
@@ -80,33 +78,13 @@ flowchart LR
 
   载入eFuse值到Register.不会自动读出Register到GUI.
 
-#### 一键刻录流程
+#### 一键刻录
 
-<mark>需先设定TX(CMD)/RX(SO)极姓</mark>
+![one click burn](assets/one_click_burn.png)
+- 新治具的TX/RX可自動切換 -> `TX/RX自動`
+- 舊治具的TX/RX需手動切換 -> `TX/RX手動`
 
-```text
-[GUI]進入PGM
-  ↓
-[GUI]设定GUI的TX(CMD)/RX(SO)极性,如下图设定
-  ↓
-[GUI]按下Burn  
-  ↓
-[USER]手动改变刻录板的TX(CMD)/RX(SO)极性
-  ↓
-[程式]执行刻录
-  ↓
-[程式]验证刻录是否成功
-  ↓
-[程式]离开PGM
-```
-
-- **CMD/SO反相**
-
-![UART INV](assets/UART_INV.png)
-
-- **CMD/SO无反相**
-
-![UART_NORMAL](assets/UART_NORMAL.png)
+---
 
 ## APP 更新下载
 
