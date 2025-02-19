@@ -43,8 +43,8 @@ flowchart LR
 
 ![read_pprotection](assets/read_pprotection.png)
 
-- 密碼 + 暫存器CRC會組成金鑰
-- 芯片燒錄完, 需要此密碼 + 金鑰正確才能讀取暫存器
+- 燒錄時`密碼+暫存器CRC`會生成一個金鑰.此金鑰和密碼須妥善保存供日後讀取芯片使用
+- 若芯片燒錄過,需要此`密碼+金鑰`正確才能讀取燒錄內容及暫存器
 
 ### 刻录
 
@@ -81,8 +81,8 @@ flowchart LR
 #### 一键刻录
 
 ![one click burn](assets/one_click_burn.png)
-- 新治具的TX/RX可自動切換 -> `TX/RX自動`
-- 舊治具的TX/RX需手動切換 -> `TX/RX手動`
+- 新治具的TX/RX可自動切換 -> 選`TX/RX自動`
+- 舊治具的TX/RX需手動切換 -> 選`TX/RX手動`
 
 ---
 
