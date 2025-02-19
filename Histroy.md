@@ -1,5 +1,11 @@
 # Histroy
 
+- V1.0.9181.14278`250219`
+`FW:24121900`
+  - Fix Query/Wtite不同步衝突問題
+  - Fix UART Test tool no display on reading  
+  - 跳出PGM後,TX/RX INV切回不反向
+
 - V1.0.9175.14227`250213`
 `FW:24121900`
   - 自動切換TX/RX極性
