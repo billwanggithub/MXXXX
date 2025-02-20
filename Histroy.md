@@ -1,9 +1,15 @@
 # Histroy
 
+- V1.0.9182.14288`250220`
+`FW:24121900`
+  - Fix empty check error if GUI autoreload bit is set before Enter PGM
+  - When enter PGM, UART polarity check begin from GUI TX/RX inv setting
+  - Fix Online test jump to PGM, no reset WDT command
+
 - V1.0.9182.14280`250220`
 `FW:24121900`
   - don't update GUI when checking efuse
-  
+
 - V1.0.9181.14278`250219`
 `FW:24121900`
   - Fix Query/Wtite不同步衝突問題
