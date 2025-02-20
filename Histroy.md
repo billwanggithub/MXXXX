@@ -1,5 +1,9 @@
 # Histroy
 
+- V1.0.9182.14280`250220`
+`FW:24121900`
+  - don't update GUI when checking efuse
+  
 - V1.0.9181.14278`250219`
 `FW:24121900`
   - Fix Query/Wtite不同步衝突問題
