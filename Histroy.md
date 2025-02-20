@@ -1,5 +1,9 @@
 # Histroy
 
+- V1.0.9182.14302`250220`
+`FW:24121900`
+  - Add M8421 XP1/Xp2/YP1/YP2/RP1/RP2 sweep
+
 - V1.0.9182.14288`250220`
 `FW:24121900`
   - Fix empty check error if GUI autoreload bit is set before Enter PGM
