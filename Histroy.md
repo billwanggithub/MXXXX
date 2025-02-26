@@ -1,8 +1,8 @@
 # Histroy
 
-- V1.0.9188.14349`250220`
+- V1.0.9188.14349`250226`
 `FW:24121900`
-- Fix M8421 MinRpmSetting check range bug
+  - Fix M8421 MinRpmSetting check range bug
 
 - V1.0.9182.14302`250220`
 `FW:24121900`
