@@ -1,5 +1,9 @@
 # Histroy
 
+- V1.0.9188.14349`250304`
+`FW:24121900`
+  - [M8421]Add RPM difference debug
+
 - V1.0.9188.14349`250226`
 `FW:24121900`
   - Fix M8421 MinRpmSetting check range bug
