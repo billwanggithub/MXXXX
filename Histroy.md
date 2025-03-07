@@ -1,8 +1,11 @@
 # Histroy
 
-- V1.0.9197.14489`250307`
+- V1.0.9197.14494`250307`
 `FW:24121900`
-  - [M8323]Add Enter PRM
+  - M8322
+    - Add Enter PRM
+    - Fix UART not work after PWM init
+    - Change UART Config as Init
 
 - V1.0.9194.14468`250304`
 `FW:24121900`
