@@ -1,15 +1,14 @@
 # Histroy
 
-- V1.0.9197.14516`250307`
-`FW:24121900`
+- V1.0.9204.14708`250314`
+`FW:25031200`
+  - Add Offline Burn
   - Fix One-Click Burn Bug
-
-- V1.0.9197.14495`250307`
-`FW:24121900`
-  - M8322
-    - Add Enter PRM
-    - Fix UART not work after PWM init
-    - Change UART Config as Init
+  - Update M8323BA watchdog stuff
+  - Fix UART not work after PWM init
+  - Change UART Config as Init  
+  - [M8323]Add Enter PGM
+  - update new FW 25031200
 
 - V1.0.9194.14468`250304`
 `FW:24121900`
