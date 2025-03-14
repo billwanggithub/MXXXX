@@ -105,7 +105,9 @@ Note:
 不做離線燒錄時, `Test Type` 設回`None`
 ![offline_programming_none](assets/offline_programming_none.png)
 
+#### 燒錄機台硬體設定
 
+![programmer_hardware](assets/programmer_hardware.png)
 ---
 
 ## APP 更新下载
