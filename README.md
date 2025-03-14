@@ -102,7 +102,7 @@ flowchart LR
   - 將燒錄設定寫入燒錄器
 
 Note: 
-不做離線燒錄時, `Test Type` 設為`None`
+不做離線燒錄時, `Test Type` 設回`None`
 ![offline_programming_none](assets/offline_programming_none.png)
 
 
