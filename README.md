@@ -107,6 +107,7 @@ Note:
 
 #### 燒錄機台硬體設定
 
+Note: 可按下`SW1`模擬`START`信號
 ![programmer_hardware](assets/programmer_hardware.png)
 ---
 
