@@ -1,5 +1,10 @@
 # Histroy
 
+- V`250318`
+`FW:25031800`
+  - Improve R/W register stability
+  - Improve read RPM speed @ online test
+
 - V1.0.9204.14708`250314`
 `FW:25031200`
   - Add Offline Burn
