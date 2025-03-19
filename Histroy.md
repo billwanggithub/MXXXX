@@ -1,7 +1,7 @@
 # Histroy
 
-- V1.0.9209.14805`250319`
-`FW:25031800`
+- V1.0.9209.14806`250319`
+`FW:25031900`
   - Improve R/W register stability
   - Improve read RPM speed @ online test
   - Check Programmer Mode
