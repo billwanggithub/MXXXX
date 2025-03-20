@@ -2,7 +2,7 @@
 
 - V1.0.9210.14825`250320`
 `FW:25031900`
-- reduce reset wdt time @ online test
+- improve read rpm speed @ online test
 - Fix 0x86, 0x8A PGM problem
 
 - V1.0.9209.14820`250319`
