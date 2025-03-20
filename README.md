@@ -13,22 +13,7 @@
 
 ---
 ![Enter PGM Mode](assets/Enter_PGM.png)
-
-```mermaid
-flowchart LR
-  A["進入PGM"]
-  B["檢查eFuse是否刻录"]
-  C[離開]
-  D{"刻录過"}
-  F{"是否要寫入預設值(Default)"}
-  G["寫入Default值"]
-  A --> B
-  B --> D
-  D --YES--> C
-  D --NO --> F
-  F --YES--> G -->C
-  F --NO--> C
-```
+![Enter PGM Flow](assets/Enter_PGM_flow.png)
 
 - 若检测到eFuse未刻录过会问你是否要写入Default值
  `YES` => 写入Default值到Register

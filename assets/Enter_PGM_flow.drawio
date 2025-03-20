@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="z4nyxtXXlJkEZc5RuxTN">
+    <mxGraphModel dx="2010" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-1" value="進入PGM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="172" width="123" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-2" value="檢查eFuse是否刻录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="273" y="172" width="197" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-3" value="離開" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="203" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-4" value="刻录過" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="148" width="102" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-5" value="是否要寫入預設值(Default)" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="697" y="155" width="246" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-6" value="寫入Default值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="203" width="161" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-1" target="SBQTAde6pBNGF-CvbHPe-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-2" target="SBQTAde6pBNGF-CvbHPe-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-9" value="YES" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.05;entryX=0.31;entryY=-0.01;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-4" target="SBQTAde6pBNGF-CvbHPe-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="120" />
+              <mxPoint x="1210" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-10" value="NO" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-4" target="SBQTAde6pBNGF-CvbHPe-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-11" value="YES" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.35;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-5" target="SBQTAde6pBNGF-CvbHPe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-6" target="SBQTAde6pBNGF-CvbHPe-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBQTAde6pBNGF-CvbHPe-13" value="NO" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.26;entryY=0.99;rounded=0;" edge="1" parent="1" source="SBQTAde6pBNGF-CvbHPe-5" target="SBQTAde6pBNGF-CvbHPe-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="314" />
+              <mxPoint x="1210" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
