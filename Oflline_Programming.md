@@ -1,5 +1,7 @@
 # 離線燒錄
 
+📝Note: 離線燒錄不會做CMD/SO反相檢查. 不能燒錄有燒錄過反相的芯片.
+
 ![offline_programming_main](assets/offline_programming_main.png)
 
 ## 設定離線燒錄步驟
