@@ -2,13 +2,13 @@
 
 - V1.0.9210.14825`250320`
 `FW:25031900`
-- improve read rpm speed @ online test
-- Fix 0x86, 0x8A PGM problem
+  - improve read rpm speed @ online test
+  - Fix 0x86, 0x8A PGM problem
 
 - V1.0.9209.14820`250319`
 `FW:25031900`
-- Show MessageBox to TopMost
-- Fix Read RPM Error Message after Exit Online TEst
+  - Show MessageBox to TopMost
+  - Fix Read RPM Error Message after Exit Online TEst
 
 - V1.0.9209.14811`250319`
 `FW:25031900`
