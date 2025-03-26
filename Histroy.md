@@ -1,8 +1,19 @@
 # Histroy
 
+- V1.0.9216.14908`250326`
+`FW:25032600`
+  - kill all process when exit APP
+  - update new firmware V25032600
+  - show CRC in one-click-burn
+
+- V1.0.9214.14875`250324`
+`FW:25031900`
+  - M8322
+    - Fix One-Click-Burning Problem when power is always ON
+
 - V1.0.9210.14825`250320`
 `FW:25031900`
-  - improve read rpm speed @ online test
+  - increase online test RPM throughput
   - Fix 0x86, 0x8A PGM problem
 
 - V1.0.9209.14820`250319`
