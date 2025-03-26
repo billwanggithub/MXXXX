@@ -1,5 +1,9 @@
 # Histroy
 
+- V1.0.9216.14920`250326`
+`FW:25032600`
+  - Update M8322BA register stuff
+
 - V1.0.9216.14908`250326`
 `FW:25032600`
   - kill all process when exit APP
