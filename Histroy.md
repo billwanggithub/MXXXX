@@ -7,7 +7,7 @@
 - V1.0.9216.14908`250326`
 `FW:25032600`
   - kill all process when exit APP
-  - update new firmware V25032600
+  - update new firmware V25032600(離線燒錄可重覆燒錄TX/RX有反相)
   - show CRC in one-click-burn
 
 - V1.0.9214.14875`250324`
