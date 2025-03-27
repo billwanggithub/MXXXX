@@ -1,5 +1,11 @@
 # Histroy
 
+- V1.0.9217.14937`250327`
+`FW:25032600`
+- Fix 切換Programmer/Burn分頁時,Register Map不見問題
+- Fix 没接调试板时演示一键烧录流程，打开 TX/RX 自动，load file，最后点击取消后，软体会宕机
+- 工程模式下,離開PGM時,詢問要不要清除Auto reload bit
+
 - V1.0.9216.14920`250326`
 `FW:25032600`
   - Update M8322BA register stuff
