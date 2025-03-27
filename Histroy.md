@@ -1,5 +1,9 @@
 # Histroy
 
+V1.0.9217.14963`250327`
+`FW:25032600`
+  - Alignment加圈數選項
+
 - V1.0.9217.14937`250327`
 `FW:25032600`
 - Fix 切換Programmer/Burn分頁時,Register Map不見問題
