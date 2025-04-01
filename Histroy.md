@@ -1,5 +1,13 @@
 # Histroy
 
+V1.0.9222.15026`250327`
+`FW:25032600`
+- Add Register Bank Test
+- Fix 出PGM清除online mode bit設定
+- M8322BX
+  - 進PGM, online mode bit 不設定			
+  - 修改 Leading angle 位置
+
 V1.0.9217.14963`250327`
 `FW:25032600`
   - Alignment加圈數選項
