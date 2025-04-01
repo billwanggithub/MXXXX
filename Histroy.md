@@ -1,5 +1,12 @@
 # Histroy
 
+V1.0.9222.15077`250327`
+`FW:25032600`
+- M8322BX
+  - RPM setting is only enabled on "OOO"
+  - disable XP1 = 0 @Shudowm mode
+  - disable RP1 < 7 
+
 V1.0.9222.15026`250327`
 `FW:25032600`
 - Add Register Bank Test
