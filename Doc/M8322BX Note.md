@@ -23,5 +23,6 @@
     工程模式下問是否清除.非工程模式一律不清除.
     auto reload off =1, 進出PGM不會從efuse reload到register
 - 0x89[6]是判斷是否close loop. 要根據這個Bit來設定FG Ratio是要填入close/open loop的設定
+- 燒錄完會自動 reload efuse data, 此時TX/RX設定可會和寫入不同,需重新進PGM
 - [ ] 0x8E[7:0] == 0x00才給燒錄
 
