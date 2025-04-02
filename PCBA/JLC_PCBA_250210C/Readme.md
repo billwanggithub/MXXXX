@@ -8,4 +8,4 @@
 
 ## 打件圖
 
-![parts placement top](assets/placement_top.png)
+![parts placement top](assets/parts_placement_top.png)
