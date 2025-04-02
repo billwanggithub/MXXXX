@@ -1,5 +1,8 @@
 ## M8322BX Change Note
 
+<details>
+<summary>M8322BA</summary>
+
 - [x] RPM setting is only enabled on "OOO"
 - [x] disable XP1 = 0 @Shudowm mode
 - [x] disable RP1 < 7 selections
@@ -9,3 +12,5 @@
 - [x] Leading angle 位置0X0F[6] -> 0x0F[4]
 - [x] Alignment加圈數選項
 - [ ] 0x8E[7:0] == 0x00才給燒錄
+
+</details>
