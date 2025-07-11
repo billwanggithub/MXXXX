@@ -1,5 +1,13 @@
 # Histroy
 
+V1.1.9323.18264`250711`
+`FW:25070900`
+[MXXXX]
+- Set default Baud Rate to 19200
+- 修正 Online Test Mode => PGM Mode bug
+- 修正 M8323 ViewModel/ViewPage
+- 修正 M8322 IPD Test Flow
+
 V1.1.9323.18170`250711`
 `FW:25070900`
 [M8323]
