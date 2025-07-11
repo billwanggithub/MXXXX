@@ -1,9 +1,36 @@
 # Histroy
 
-V1.1.9287.17417`250605`
-`FW:25052800`
- - 更新GUI
- - 更新Firmware
+V1.1.9323.18170`250711`
+`FW:25070900`
+[M8323]
+- Update M8323 Speed Curve
+- Update softstart startup vcs first item as 20mv
+[M8322]
+- Display 0x01[5:4] Speed Curve COP below RPM Limit
+- Add Offline Burn stuff
+- Add IPD Test Plot
+- Update marker size of IPD test plot 
+- Fix Align Speed(RPM) list all zero problem
+- updste M8322Kp combobox list
+[M8421]
+- Update M8421 Speed Curve
+- Update softstart startup vcs first item as 20mv
+[G8202L]
+- Hide FGPA/Pattern  
+- Update I2C Address to 0x72
+- Update Register table
+[ALL]
+- update backdoor password  
+- Update  IsGMtMode to IsBackDoor  
+- fix load/save the same file locked problem
+- disable update register CRC in stop mode
+- only enable CheckBankStatus on stop mode
+- CheckBankStatus() 加入判斷PCBA極性
+- [x]燒錄完再下一次reload(0xA6)確認燒錄資料
+- 燒錄前後檢查0x8E[7:6]是否為0x00
+- Add expander for left side tools
+- show/hide top tools panel with mouse enter/leave outpanel
+- Update PlotPageViewModel
 
 V1.0.9223.15099`250402`
 `FW:25032600`
