@@ -1,6 +1,6 @@
 # Histroy
 
-V1.1.9323.18264`250711`
+V1.1.9323.18265`250711`
 `FW:25070900`
 [MXXXX]
 - Set default Baud Rate to 19200
